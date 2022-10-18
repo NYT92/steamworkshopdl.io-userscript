@@ -12,7 +12,12 @@ Userscript that add download button on the workshop page...
 - [Chrome](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)    
 - [Firefox](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/)  
 
-2. After you done go to this [link](https://d2.nscdn.ml/file/d2directdrives/steamwshp.user.js) or https://d2.nscdn.ml/file/d2directdrives/steamwshp.user.js to add userscript to tampermoney. It should be automatically prompt you an installation page.
+2. After you done go to this link to add userscript to tampermoney.  
+
+- [statically](https://cdn.statically.io/gh/NYT92/steamworkshopdl.io-userscript/main/steamwshp.user.js)  
+- [d2directdrives](https://d2.nscdn.ml/file/d2directdrives/steamwshp.user.js)  
+
+It should be automatically prompt you an installation page.
 
 ![image](https://user-images.githubusercontent.com/53612429/196474872-0417f61b-d9b4-43e0-a6dd-768611b1cdb4.png)
 
