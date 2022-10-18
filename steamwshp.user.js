@@ -4,8 +4,8 @@
 // @description    Adds a button to the Steam Workshop pages that lets you head straight to the specific addon page at steamworkshopdownload.io (INSPIRED BY steamworkshop.download usscript)
 // @include        *steamcommunity.com/sharedfiles/filedetails/?id=*
 // @version        1.0.0
-// @downloadURL    https://d2.nscdn.ml/file/d2directdrives/steamwshp.user.js
-// @updateURL      https://d2.nscdn.ml/file/d2directdrives/steamwshp.user.js
+// @downloadURL    https://cdn.statically.io/gh/NYT92/steamworkshopdl.io-userscript/main/steamwshp.user.js
+// @updateURL      https://cdn.statically.io/gh/NYT92/steamworkshopdl.io-userscript/main/steamwshp.user.js
 // @grant          GM_xmlhttpRequest
 // ==/UserScript==
 
