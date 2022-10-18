@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name           Steamwkdl.io Button
 // @namespace      https://nsdev.ml
-// @description    Adds a button to the Steam Workshop pages that lets you head straight to the specific addon page at steamworkshopdownload.io (INSPIRED BY steamworkshop.download usscript)
+// @description    Adds a button to the Steam Workshop pages that instantly download file from steamworkshopdownload.io (INSPIRED BY steamworkshop.download usscript)
 // @include        *steamcommunity.com/sharedfiles/filedetails/?id=*
 // @version        1.0.0
 // @downloadURL    https://cdn.statically.io/gh/NYT92/steamworkshopdl.io-userscript/main/steamwshp.user.js
@@ -32,7 +32,11 @@ try {
         const textinfo = document.createElement("div");
         textinfo.innerHTML = `
                     <span class="subscribeText">
-                    <div class="subscribeOption subscribe selected" id="SubscribeItemOptionAdd">Require to own a game or software</div>
+                    <div class="subscribeOption subscribe selected" id="SubscribeItemOptionAdd">
+                      <a href="https://github.com/NYT92/steamworkshopdl.io-userscript/#require-to-own-a-game-or-software" target="_blank">
+                        Require to own a game or software
+                      </a>
+                    </div>
                     </span>`;
         if (realButton.nextSibling) {
           realButton.parentNode.insertBefore(textinfo, realButton.nextSibling);
@@ -64,7 +68,7 @@ try {
     },
     onerror: function (e) {
       alert(
-        "There is a problem with the steamworkshopdownloader please try again later!"
+        "There is a problem with the steamworkshopdownloader or you did not allowed the userscript to run!"
       );
     },
   });
